@@ -1,8 +1,8 @@
 ## Reqs
-Composer: 2.7.7
-PHP: 8.2.22
-Node: 20.16.0
-NPM: 10.8.1
+- Composer: 2.7.7
+- PHP: 8.2.22
+- Node: 20.16.0
+- NPM: 10.8.1
 
 ## Set up
 1. Clone
