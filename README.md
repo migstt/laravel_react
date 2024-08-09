@@ -4,7 +4,7 @@
 - Node: 20.16.0
 - NPM: 10.8.1
 
-## Set up arch
+## Set up
 1. Clone
 2. cd laravel_react
 3. npm install
