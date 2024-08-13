@@ -35,4 +35,11 @@ return [
         ],
     ],
 
+    'dynamodb' => [
+        'key'    => env('AWS_ACCESS_KEY_ID', 'migoyLocalAccess'),
+        'secret' => env('AWS_SECRET_ACCESS_KEY', 'migoyLocalSecret'),
+        'region' => env('AWS_DEFAULT_REGION', 'ap-southeast-1'),
+        'endpoint' => env('AWS_DYNAMODB_ENDPOINT', 'http://localhost:8002'),
+    ],
+
 ];
