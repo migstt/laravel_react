@@ -27,6 +27,7 @@ Route::middleware('auth')->group(function () {
 });
 
 Route::get('/test-migoy', [MigoyController::class, 'migoytest']);
+Route::get('/sampletable', [MigoyController::class, 'createSampleTable']);
 
 
 require __DIR__.'/auth.php';
